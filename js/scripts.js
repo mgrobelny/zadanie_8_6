@@ -4,12 +4,16 @@ var a = 12
 
 console.log('Wynik wynosi: ' + value)
 
-if (value > 0) {
-	console.log('Wynik jest dodatni')
-} else {
-	console.log('Wynik jest ujemny')
-}
-
 if (value == 0) {
 	console.log('Wynik jest równy 0')
-}
+} 
+
+else if (value > 0) {
+	console.log('Wynik jest dodatni')
+} 
+
+else {
+	console.log('Wynik jest ujemny')
+} 
+
+
